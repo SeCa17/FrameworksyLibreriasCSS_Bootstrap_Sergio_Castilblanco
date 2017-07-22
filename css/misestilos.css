@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+  margin: 1px;
+  padding: 1px;
+  color: white;
+}
+header {
+  background: white;
+  border: 1px dashed black;
+  border-radius: 15px 15px 0 0;
+}
+img[class*=logo] {
+  width: 20%;
+  padding: 1px;
+  margin: 1px;
+}
+#buscador {
+  color: black;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.recuadro {
+  height: 70px;
+  background-color: gray;
+  border-radius: 2px;
+}
+ol > li {
+  background-color: gray;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 10px;
+}
