@@ -4,30 +4,82 @@ body {
   padding: 1px;
   color: white;
 }
+.container-fluid {
+  background: rgb(214,12,251)
+}
+@media (max-width: 420px) {
+  ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  ul > li {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 720px) {
+  ul {
+    text-align: center;
+  }
+  ul > li {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
 header {
-  background: white;
-  border: 1px dashed black;
-  border-radius: 15px 15px 0 0;
+  padding: 3px;
+  margin: 3px;
 }
 img[class*=logo] {
   width: 20%;
   padding: 1px;
   margin: 1px;
 }
+.menu {
+  padding: 3px;
+  color: white;
+  font-size: 3rem;
+  text-align: justify;
+  background: gray;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h2, h3, h4, h5, h6 {
+  text-shadow: 1px 1px gray;
+  text-decoration: underline;
+}
 #buscador {
   color: black;
   background-color: white;
-  opacity: 0.8;
   border-radius: 10px;
 }
 .recuadro {
   height: 70px;
-  background-color: gray;
+  background-color: #1a93f9;
   border-radius: 2px;
 }
 ol > li {
-  background-color: gray;
+  background-color: #1a93f9;
   padding: 3px;
   margin: 3px;
   border-radius: 10px;
+}
+.footer {
+  background-color: gray;
+  margin-top: 5px;
+  padding: 2px;
+  text-align: center;
+  border-top: 5px dashed white;
+}
+@media (min-width: 412) {
+  .menu {
+    padding: 3px;
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    background: gray;
+  }
 }
