@@ -43,6 +43,11 @@ img[class*=logo] {
   text-align: justify;
   background: gray;
 }
+ul > li {
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgba(0,0,255,0.5)
+}
 a {
   color: white;
   text-decoration: none;
